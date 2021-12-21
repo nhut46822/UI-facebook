@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container-group">
+			<nav class="navbar">
+				<div class="navbar__logo__search">
+					<div class="navbar__logo__search__img">
+						<svg
+							viewBox="0 0 36 36"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4"
+							fill="url(#jsc_s_1o)"
+							height="38"
+							width="38"
+						>
+							<defs>
+								<linearGradient
+									x1="50%"
+									x2="50%"
+									y1="97.0782153%"
+									y2="0%"
+									id="jsc_s_1o"
+								>
+									<stop
+										offset="0%"
+										stop-color="#0062E0"
+									></stop>
+									<stop
+										offset="100%"
+										stop-color="#19AFFF"
+									></stop>
+								</linearGradient>
+							</defs>
+							<path
+								d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z"
+							></path>
+							<path
+								class="p361ku9c"
+								d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"
+							></path>
+						</svg>
+					</div>
+					<input type="text" placeholder="Tìm kiếm trên Facebook" />
+					<i class="bx bx-search-alt"></i>
+				</div>
+				<div class="navbar__list__center">
+					<div class="navbar__list__center__item">
+						<svg
+							viewBox="0 0 28 28"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+							height="28"
+							width="28"
+						>
+							<path
+								d="M17.5 23.979 21.25 23.979C21.386 23.979 21.5 23.864 21.5 23.729L21.5 13.979C21.5 13.427 21.949 12.979 22.5 12.979L24.33 12.979 14.017 4.046 3.672 12.979 5.5 12.979C6.052 12.979 6.5 13.427 6.5 13.979L6.5 23.729C6.5 23.864 6.615 23.979 6.75 23.979L10.5 23.979 10.5 17.729C10.5 17.04 11.061 16.479 11.75 16.479L16.25 16.479C16.939 16.479 17.5 17.04 17.5 17.729L17.5 23.979ZM21.25 25.479 17 25.479C16.448 25.479 16 25.031 16 24.479L16 18.327C16 18.135 15.844 17.979 15.652 17.979L12.348 17.979C12.156 17.979 12 18.135 12 18.327L12 24.479C12 25.031 11.552 25.479 11 25.479L6.75 25.479C5.784 25.479 5 24.695 5 23.729L5 14.479 3.069 14.479C2.567 14.479 2.079 14.215 1.868 13.759 1.63 13.245 1.757 12.658 2.175 12.29L13.001 2.912C13.248 2.675 13.608 2.527 13.989 2.521 14.392 2.527 14.753 2.675 15.027 2.937L25.821 12.286C25.823 12.288 25.824 12.289 25.825 12.29 26.244 12.658 26.371 13.245 26.133 13.759 25.921 14.215 25.434 14.479 24.931 14.479L23 14.479 23 23.729C23 24.695 22.217 25.479 21.25 25.479Z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__list__center__item">
+						<svg
+							viewBox="0 0 28 28"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+							height="28"
+							width="28"
+						>
+							<path
+								d="M10.5 4.5c-2.272 0-2.75 1.768-2.75 3.25C7.75 9.542 8.983 11 10.5 11s2.75-1.458 2.75-3.25c0-1.482-.478-3.25-2.75-3.25zm0 8c-2.344 0-4.25-2.131-4.25-4.75C6.25 4.776 7.839 3 10.5 3s4.25 1.776 4.25 4.75c0 2.619-1.906 4.75-4.25 4.75zm9.5-6c-1.41 0-2.125.841-2.125 2.5 0 1.378.953 2.5 2.125 2.5 1.172 0 2.125-1.122 2.125-2.5 0-1.659-.715-2.5-2.125-2.5zm0 6.5c-1.999 0-3.625-1.794-3.625-4 0-2.467 1.389-4 3.625-4 2.236 0 3.625 1.533 3.625 4 0 2.206-1.626 4-3.625 4zm4.622 8a.887.887 0 00.878-.894c0-2.54-2.043-4.606-4.555-4.606h-1.86c-.643 0-1.265.148-1.844.413a6.226 6.226 0 011.76 4.336V21h5.621zm-7.122.562v-1.313a4.755 4.755 0 00-4.749-4.749H8.25A4.755 4.755 0 003.5 20.249v1.313c0 .518.421.938.937.938h12.125c.517 0 .938-.42.938-.938zM20.945 14C24.285 14 27 16.739 27 20.106a2.388 2.388 0 01-2.378 2.394h-5.81a2.44 2.44 0 01-2.25 1.5H4.437A2.44 2.44 0 012 21.562v-1.313A6.256 6.256 0 018.25 14h4.501a6.2 6.2 0 013.218.902A5.932 5.932 0 0119.084 14h1.861z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__list__center__item">
+						<svg
+							viewBox="0 0 28 28"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+							height="28"
+							width="28"
+						>
+							<path
+								d="M8.75 25.25C8.336 25.25 8 24.914 8 24.5 8 24.086 8.336 23.75 8.75 23.75L19.25 23.75C19.664 23.75 20 24.086 20 24.5 20 24.914 19.664 25.25 19.25 25.25L8.75 25.25ZM17.163 12.846 12.055 15.923C11.591 16.202 11 15.869 11 15.327L11 9.172C11 8.631 11.591 8.297 12.055 8.576L17.163 11.654C17.612 11.924 17.612 12.575 17.163 12.846ZM21.75 20.25C22.992 20.25 24 19.242 24 18L24 6.5C24 5.258 22.992 4.25 21.75 4.25L6.25 4.25C5.008 4.25 4 5.258 4 6.5L4 18C4 19.242 5.008 20.25 6.25 20.25L21.75 20.25ZM21.75 21.75 6.25 21.75C4.179 21.75 2.5 20.071 2.5 18L2.5 6.5C2.5 4.429 4.179 2.75 6.25 2.75L21.75 2.75C23.821 2.75 25.5 4.429 25.5 6.5L25.5 18C25.5 20.071 23.821 21.75 21.75 21.75Z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__list__center__item">
+						<svg
+							viewBox="0 0 28 28"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+							height="28"
+							width="28"
+						>
+							<path
+								d="M17.5 23.75 21.75 23.75C22.164 23.75 22.5 23.414 22.5 23L22.5 14 22.531 14C22.364 13.917 22.206 13.815 22.061 13.694L21.66 13.359C21.567 13.283 21.433 13.283 21.34 13.36L21.176 13.497C20.591 13.983 19.855 14.25 19.095 14.25L18.869 14.25C18.114 14.25 17.382 13.987 16.8 13.506L16.616 13.354C16.523 13.278 16.39 13.278 16.298 13.354L16.113 13.507C15.53 13.987 14.798 14.25 14.044 14.25L13.907 14.25C13.162 14.25 12.439 13.994 11.861 13.525L11.645 13.35C11.552 13.275 11.419 13.276 11.328 13.352L11.155 13.497C10.57 13.984 9.834 14.25 9.074 14.25L8.896 14.25C8.143 14.25 7.414 13.989 6.832 13.511L6.638 13.351C6.545 13.275 6.413 13.275 6.32 13.351L5.849 13.739C5.726 13.84 5.592 13.928 5.452 14L5.5 14 5.5 23C5.5 23.414 5.836 23.75 6.25 23.75L10.5 23.75 10.5 17.5C10.5 16.81 11.06 16.25 11.75 16.25L16.25 16.25C16.94 16.25 17.5 16.81 17.5 17.5L17.5 23.75ZM3.673 8.75 24.327 8.75C24.3 8.66 24.271 8.571 24.238 8.483L23.087 5.355C22.823 4.688 22.178 4.25 21.461 4.25L6.54 4.25C5.822 4.25 5.177 4.688 4.919 5.338L3.762 8.483C3.729 8.571 3.7 8.66 3.673 8.75ZM24.5 10.25 3.5 10.25 3.5 12C3.5 12.414 3.836 12.75 4.25 12.75L4.421 12.75C4.595 12.75 4.763 12.69 4.897 12.58L5.368 12.193C6.013 11.662 6.945 11.662 7.59 12.193L7.784 12.352C8.097 12.609 8.49 12.75 8.896 12.75L9.074 12.75C9.483 12.75 9.88 12.607 10.194 12.345L10.368 12.2C11.01 11.665 11.941 11.659 12.589 12.185L12.805 12.359C13.117 12.612 13.506 12.75 13.907 12.75L14.044 12.75C14.45 12.75 14.844 12.608 15.158 12.35L15.343 12.197C15.989 11.663 16.924 11.663 17.571 12.197L17.755 12.35C18.068 12.608 18.462 12.75 18.869 12.75L19.095 12.75C19.504 12.75 19.901 12.606 20.216 12.344L20.38 12.208C21.028 11.666 21.972 11.666 22.62 12.207L23.022 12.542C23.183 12.676 23.387 12.75 23.598 12.75 24.097 12.75 24.5 12.347 24.5 11.85L24.5 10.25ZM24 14.217 24 23C24 24.243 22.993 25.25 21.75 25.25L6.25 25.25C5.007 25.25 4 24.243 4 23L4 14.236C2.875 14.112 2 13.158 2 12L2 9.951C2 9.272 2.12 8.6 2.354 7.964L3.518 4.802C4.01 3.563 5.207 2.75 6.54 2.75L21.461 2.75C22.793 2.75 23.99 3.563 24.488 4.819L25.646 7.964C25.88 8.6 26 9.272 26 9.951L26 11.85C26 13.039 25.135 14.026 24 14.217ZM16 23.75 16 17.75 12 17.75 12 23.75 16 23.75Z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__list__center__item">
+						<svg
+							viewBox="0 0 28 28"
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv"
+							height="28"
+							width="28"
+						>
+							<path
+								d="M25.5 14C25.5 7.649 20.351 2.5 14 2.5 7.649 2.5 2.5 7.649 2.5 14 2.5 20.351 7.649 25.5 14 25.5 20.351 25.5 25.5 20.351 25.5 14ZM27 14C27 21.18 21.18 27 14 27 6.82 27 1 21.18 1 14 1 6.82 6.82 1 14 1 21.18 1 27 6.82 27 14ZM7.479 14 7.631 14C7.933 14 8.102 14.338 7.934 14.591 7.334 15.491 6.983 16.568 6.983 17.724L6.983 18.221C6.983 18.342 6.99 18.461 7.004 18.578 7.03 18.802 6.862 19 6.637 19L6.123 19C5.228 19 4.5 18.25 4.5 17.327 4.5 15.492 5.727 14 7.479 14ZM20.521 14C22.274 14 23.5 15.492 23.5 17.327 23.5 18.25 22.772 19 21.878 19L21.364 19C21.139 19 20.97 18.802 20.997 18.578 21.01 18.461 21.017 18.342 21.017 18.221L21.017 17.724C21.017 16.568 20.667 15.491 20.067 14.591 19.899 14.338 20.067 14 20.369 14L20.521 14ZM8.25 13C7.147 13 6.25 11.991 6.25 10.75 6.25 9.384 7.035 8.5 8.25 8.5 9.465 8.5 10.25 9.384 10.25 10.75 10.25 11.991 9.353 13 8.25 13ZM19.75 13C18.647 13 17.75 11.991 17.75 10.75 17.75 9.384 18.535 8.5 19.75 8.5 20.965 8.5 21.75 9.384 21.75 10.75 21.75 11.991 20.853 13 19.75 13ZM15.172 13.5C17.558 13.5 19.5 15.395 19.5 17.724L19.5 18.221C19.5 19.202 18.683 20 17.677 20L10.323 20C9.317 20 8.5 19.202 8.5 18.221L8.5 17.724C8.5 15.395 10.441 13.5 12.828 13.5L15.172 13.5ZM16.75 9C16.75 10.655 15.517 12 14 12 12.484 12 11.25 10.655 11.25 9 11.25 7.15 12.304 6 14 6 15.697 6 16.75 7.15 16.75 9Z"
+							></path>
+						</svg>
+					</div>
+				</div>
+				<div class="navbar__login">
+					<div class="navbar__login__name">
+						<img
+							src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+							alt=""
+						/>
+						<p>Đăng</p>
+					</div>
+					<div class="navbar__login__menu navbar__login__item">
+						<svg
+							viewBox="0 0 44 44"
+							width="20"
+							height="20"
+							class="
+								a8c37x1j
+								ms05siws
+								hwsy1cff
+								b7h9ocf4
+								fzdkajry
+								jnigpg78
+								odw8uiq3
+							"
+						>
+							<circle cx="7" cy="7" r="6"></circle>
+							<circle cx="22" cy="7" r="6"></circle>
+							<circle cx="37" cy="7" r="6"></circle>
+							<circle cx="7" cy="22" r="6"></circle>
+							<circle cx="22" cy="22" r="6"></circle>
+							<circle cx="37" cy="22" r="6"></circle>
+							<circle cx="7" cy="37" r="6"></circle>
+							<circle cx="22" cy="37" r="6"></circle>
+							<circle cx="37" cy="37" r="6"></circle>
+						</svg>
+					</div>
+					<div class="navbar__login__message navbar__login__item">
+						<svg
+							viewBox="0 0 28 28"
+							alt=""
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry"
+							height="20"
+							width="20"
+						>
+							<path
+								d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__login__notify navbar__login__item">
+						<svg
+							viewBox="0 0 28 28"
+							alt=""
+							class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry"
+							height="20"
+							width="20"
+						>
+							<path
+								d="M7.847 23.488C9.207 23.488 11.443 23.363 14.467 22.806 13.944 24.228 12.581 25.247 10.98 25.247 9.649 25.247 8.483 24.542 7.825 23.488L7.847 23.488ZM24.923 15.73C25.17 17.002 24.278 18.127 22.27 19.076 21.17 19.595 18.724 20.583 14.684 21.369 11.568 21.974 9.285 22.113 7.848 22.113 7.421 22.113 7.068 22.101 6.79 22.085 4.574 21.958 3.324 21.248 3.077 19.976 2.702 18.049 3.295 17.305 4.278 16.073L4.537 15.748C5.2 14.907 5.459 14.081 5.035 11.902 4.086 7.022 6.284 3.687 11.064 2.753 15.846 1.83 19.134 4.096 20.083 8.977 20.506 11.156 21.056 11.824 21.986 12.355L21.986 12.356 22.348 12.561C23.72 13.335 24.548 13.802 24.923 15.73Z"
+							></path>
+						</svg>
+					</div>
+					<div class="navbar__login__down navbar__login__item">
+						<svg
+							viewBox="0 0 20 20"
+							width="20"
+							height="20"
+							class="
+								a8c37x1j
+								ms05siws
+								hwsy1cff
+								b7h9ocf4
+								fzdkajry
+								jnigpg78
+								odw8uiq3
+							"
+						>
+							<path
+								d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+							></path>
+						</svg>
+					</div>
+				</div>
+			</nav>
+
+			<header class="header">
+				<div class="header__wrapper content">
+					<div class="header__img">
+						<img src="./img/header-img.jpg" alt="" />
+						<p>
+							Nhóm của <span> Cộng Đồng Frontend Việt Nam </span>
+						</p>
+					</div>
+
+					<div class="header__content content-m-l-r">
+						<h2>Cộng đồng Front-end(HTML/CSS/JS) Việt Nam</h2>
+
+						<div class="header__content__info">
+							<div class="header__content__info__left">
+								<i class="bx bx-globe"></i>
+								<span>Nhóm công khai</span>
+								<p>84,6K thành viên</p>
+							</div>
+							<div class="header__content__info__right">
+								<div
+									class="header__content__info__right__joined"
+								>
+									<i class="bx bx-user-circle"></i>
+									<span>Đã tham gia</span>
+									<svg
+										viewBox="0 0 20 20"
+										width="20"
+										height="20"
+										class="
+											a8c37x1j
+											ms05siws
+											hwsy1cff
+											b7h9ocf4
+											fzdkajry
+											jnigpg78
+											odw8uiq3
+										"
+									>
+										<path
+											d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+										></path>
+									</svg>
+								</div>
+
+								<div
+									class="header__content__info__right__invite"
+								>
+									<span>+</span>Mời
+								</div>
+
+								<div class="header__content__info__right__down">
+									<i class="bx bx-chevron-down"></i>
+								</div>
+							</div>
+						</div>
+						<div class="line"></div>
+
+						<div class="header__content__nav">
+							<div class="header__content__nav__title">
+								<p class="header__content__nav__title__text">
+									Giới thiệu
+								</p>
+								<p
+									class="
+										header__content__nav__title__text
+										active
+									"
+								>
+									Thảo luận
+								</p>
+								<p class="header__content__nav__title__text">
+									Đáng chú ý
+								</p>
+								<p class="header__content__nav__title__text">
+									Chat
+								</p>
+								<p class="header__content__nav__title__text">
+									Chủ đề
+								</p>
+								<p class="header__content__nav__title__text">
+									Mọi người
+								</p>
+								<p class="header__content__nav__title__text">
+									File phương tiện
+								</p>
+								<p class="header__content__nav__title__text">
+									File
+								</p>
+							</div>
+							<div class="header__content__nav__more">
+								<div class="header__content__nav__more__search">
+									<i class="bx bx-search-alt"></i>
+								</div>
+								<div class="header__content__nav__more__dot">
+									<i class="bx bxs-circle"></i>
+									<i class="bx bxs-circle"></i>
+									<i class="bx bxs-circle"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="main-content">
+				<div class="content-m-l-r">
+					<div class="main-content__wrapper">
+						<div class="main-content__wrapper__left">
+							<div class="main-content__wrapper__left__think">
+								<div
+									class="
+										main-content__wrapper__left__think__content
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__left__think__content__img
+										"
+									>
+										<img
+											src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+											alt=""
+										/>
+									</div>
+									<input
+										type="text"
+										placeholder="Hãy tạo bài viết đầu tiên..."
+									/>
+								</div>
+								<div
+									class="
+										main-content__wrapper__left__think__more
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__left__think__more__item
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											style="
+												background-image: url('https://www.facebook.com/rsrc.php/v3/yx/r/yEmtAM0F_xN.png');
+												background-position: 0px -292px;
+												background-size: 50px 438px;
+												width: 24px;
+												height: 24px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+										<p>Ảnh/Video</p>
+									</div>
+									<div
+										class="
+											main-content__wrapper__left__think__more__item
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											style="
+												background-image: url('https://www.facebook.com/rsrc.php/v3/yx/r/yEmtAM0F_xN.png');
+												background-position: 0px -266px;
+												background-size: 50px 438px;
+												width: 24px;
+												height: 24px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+										<p>Gắn thẻ người khác</p>
+									</div>
+									<div
+										class="
+											main-content__wrapper__left__think__more__item
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											style="
+												background-image: url('https://www.facebook.com/rsrc.php/v3/yx/r/yEmtAM0F_xN.png');
+												background-position: 0px -240px;
+												background-size: 50px 438px;
+												width: 24px;
+												height: 24px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+										<p>Cảm xúc/Hoạt động</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="main-content__wrapper__left__activity">
+								<p>Hoạt động mới</p>
+								<span>
+									<svg
+										viewBox="0 0 20 20"
+										width="16"
+										height="16"
+										class="
+											a8c37x1j
+											ms05siws
+											hwsy1cff
+											b7h9ocf4
+											fzdkajry
+											jnigpg78
+											odw8uiq3
+										"
+									>
+										<path
+											d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+										></path>
+									</svg>
+								</span>
+							</div>
+							<div class="main-content__wrapper__left__post">
+								<div
+									class="
+										main-content__wrapper__left__post__item
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__left__post__item__info
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__info__left
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__info__left__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__info__left__name
+												"
+											>
+												<p>Trương Trung Hiếu</p>
+												<div>
+													<span>
+														13 tháng 12 lúc 19:15
+													</span>
+													<svg
+														viewBox="0 0 16 16"
+														width="1em"
+														height="1em"
+														class="
+															a8c37x1j
+															ms05siws
+															hwsy1cff
+															b7h9ocf4
+															em6zcovv
+															cyypbtt7
+															fwizqjfa
+														"
+														title="Đã chia sẻ với Nhóm công khai"
+													>
+														<title>
+															Đã chia sẻ với Nhóm
+															công khai
+														</title>
+														<g
+															fill-rule="evenodd"
+															transform="translate(-448 -544)"
+														>
+															<g>
+																<path
+																	d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434"
+																	transform="translate(354 143.5)"
+																></path>
+																<path
+																	d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096"
+																	transform="translate(354 143.5)"
+																></path>
+																<path
+																	fill-rule="nonzero"
+																	d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z"
+																	transform="translate(354 143.5)"
+																></path>
+															</g>
+														</g>
+													</svg>
+												</div>
+											</div>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__info__right
+											"
+										>
+											<div
+												class="
+													header__content__nav__more__dot
+													bg-none
+												"
+											>
+												<i class="bx bxs-circle"></i>
+												<i class="bx bxs-circle"></i>
+												<i class="bx bxs-circle"></i>
+											</div>
+										</div>
+									</div>
+									<p
+										class="
+											main-content__wrapper__left__post__item__description
+										"
+									>
+										E xin chào các anh chị ạ , E mới học
+										xong khoá nodejs của andrew udemy nhưng
+										vẫn chưa ngấm lắm , và em nên thực hành
+										project vừa làm vừa đọc docs hay là em
+										nên tiếp tục trau dồi nền tảng ạ . Mong
+										anh chị đi làm r chỉ dẫn e theo con
+										đưong CHÁNH ĐẠO . E xin 1 số project
+										hiệu quả cho newbie và thực tế nhất khi
+										đi làm . E xin trân thành cảm ơn và hậu
+										tạ . E cảm ơn rất nhiều ạ . Xin phép
+										không liên quan đến Frontend lắm E xin
+										cảm ơn ad
+									</p>
+									<img src="./img/anh-post-2.jpg" alt="" />
+									<div
+										class="
+											main-content__wrapper__left__post__item__state
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__state__left
+											"
+										>
+											<img
+												style="width: 18px"
+												src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e"
+												alt=""
+											/>
+											<span>36</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__state__right
+											"
+										>
+											<span>12 bình luận</span>
+											<p>2 lượt chia sẽ</p>
+										</div>
+									</div>
+
+									<div class="line"></div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__action
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -232px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Thích</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -192px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Bình luận</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -252px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Chia sẽ</span>
+										</div>
+									</div>
+
+									<div class="line"></div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__commentprev
+										"
+									>
+										<p>Xem 4 bình luận trước</p>
+										<p>
+											<span>Tất cả bình luận</span>
+											<span>
+												<svg
+													viewBox="0 0 20 20"
+													width="16"
+													height="16"
+													class="
+														a8c37x1j
+														ms05siws
+														hwsy1cff
+														b7h9ocf4
+														fzdkajry
+														jnigpg78
+														odw8uiq3
+													"
+												>
+													<path
+														d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+													></path>
+												</svg>
+											</span>
+										</p>
+									</div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__respose
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__respose__person
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__content
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__wrapper
+													"
+												>
+													<p
+														class="
+															main-content__wrapper__left__post__item__respose__person__content__name
+														"
+													>
+														Kat Ngo
+													</p>
+													<span
+														>check ib chị em
+														nhé</span
+													>
+												</div>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__like
+													"
+												>
+													<span>Thích</span>
+													<span>Phản hồi</span>
+													<span>Chia sẽ</span>
+													<span>4 ngày</span>
+												</div>
+											</div>
+
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__toggle
+													main-content__wrapper__left__post__item__respose__person__more
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__info__right
+													"
+												>
+													<div
+														class="
+															header__content__nav__more__dot
+															bg-none
+														"
+													>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__respose__person
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__content
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__wrapper
+													"
+												>
+													<p
+														class="
+															main-content__wrapper__left__post__item__respose__person__content__name
+														"
+													>
+														Kat Ngo
+													</p>
+													<span
+														>Hi mọi người em đang
+														gặp lỗi này ạ.</span
+													>
+												</div>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__like
+													"
+												>
+													<span>Thích</span>
+													<span>Phản hồi</span>
+													<span>Chia sẽ</span>
+													<span>4 ngày</span>
+												</div>
+											</div>
+
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__toggle
+													main-content__wrapper__left__post__item__respose__person__more
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__info__right
+													"
+												>
+													<div
+														class="
+															header__content__nav__more__dot
+															bg-none
+														"
+													>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="
+											main-content__wrapper__left__post__item__cmtme
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__cmtme__img
+											"
+										>
+											<img
+												src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+												alt=""
+											/>
+											<i class="bx bxs-circle"></i>
+										</div>
+										<div class="input">
+											<input
+												type="text"
+												placeholder="Hãy gửi bình luận đầu tiên của bạn"
+											/>
+											<div class="input__icon">
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -416px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -362px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -434px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -452px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="
+										main-content__wrapper__left__post__item
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__left__post__item__info
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__info__left
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__info__left__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__info__left__name
+												"
+											>
+												<p>Trương Trung Hiếu</p>
+												<div>
+													<span>
+														13 tháng 12 lúc 19:15
+													</span>
+													<svg
+														viewBox="0 0 16 16"
+														width="1em"
+														height="1em"
+														class="
+															a8c37x1j
+															ms05siws
+															hwsy1cff
+															b7h9ocf4
+															em6zcovv
+															cyypbtt7
+															fwizqjfa
+														"
+														title="Đã chia sẻ với Nhóm công khai"
+													>
+														<title>
+															Đã chia sẻ với Nhóm
+															công khai
+														</title>
+														<g
+															fill-rule="evenodd"
+															transform="translate(-448 -544)"
+														>
+															<g>
+																<path
+																	d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434"
+																	transform="translate(354 143.5)"
+																></path>
+																<path
+																	d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096"
+																	transform="translate(354 143.5)"
+																></path>
+																<path
+																	fill-rule="nonzero"
+																	d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z"
+																	transform="translate(354 143.5)"
+																></path>
+															</g>
+														</g>
+													</svg>
+												</div>
+											</div>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__info__right
+											"
+										>
+											<div
+												class="
+													header__content__nav__more__dot
+													bg-none
+												"
+											>
+												<i class="bx bxs-circle"></i>
+												<i class="bx bxs-circle"></i>
+												<i class="bx bxs-circle"></i>
+											</div>
+										</div>
+									</div>
+									<p
+										class="
+											main-content__wrapper__left__post__item__description
+										"
+									>
+										Em đang là sinh viên năm ba ngành kỹ
+										thuật máy tính hiện em đang đi xin thực
+										tập sinh về nhánh frontend web không
+										biết trong đây có công ty nào ở hcm
+										tuyển thực tập sinh không ạ.
+									</p>
+									<div
+										class="
+											main-content__wrapper__left__post__item__state
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__state__left
+											"
+										>
+											<img
+												style="width: 18px"
+												src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e"
+												alt=""
+											/>
+											<span>36</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__state__right
+											"
+										>
+											<span>12 bình luận</span>
+											<p>2 lượt chia sẽ</p>
+										</div>
+									</div>
+
+									<div class="line"></div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__action
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -232px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Thích</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -192px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Bình luận</span>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__action__item
+											"
+										>
+											<i
+												data-visualcompletion="css-img"
+												class="hu5pjgll m6k467ps"
+												style="
+													background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+													background-position: 0 -252px;
+													background-size: 26px 562px;
+													width: 18px;
+													height: 18px;
+													background-repeat: no-repeat;
+													display: inline-block;
+												"
+											></i>
+											<span>Chia sẽ</span>
+										</div>
+									</div>
+
+									<div class="line"></div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__commentprev
+										"
+									>
+										<p>Xem 4 bình luận trước</p>
+										<p>
+											<span>Tất cả bình luận</span>
+											<span>
+												<svg
+													viewBox="0 0 20 20"
+													width="16"
+													height="16"
+													class="
+														a8c37x1j
+														ms05siws
+														hwsy1cff
+														b7h9ocf4
+														fzdkajry
+														jnigpg78
+														odw8uiq3
+													"
+												>
+													<path
+														d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"
+													></path>
+												</svg>
+											</span>
+										</p>
+									</div>
+
+									<div
+										class="
+											main-content__wrapper__left__post__item__respose
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__respose__person
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__content
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__wrapper
+													"
+												>
+													<p
+														class="
+															main-content__wrapper__left__post__item__respose__person__content__name
+														"
+													>
+														Kat Ngo
+													</p>
+													<span
+														>check ib chị em
+														nhé</span
+													>
+												</div>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__like
+													"
+												>
+													<span>Thích</span>
+													<span>Phản hồi</span>
+													<span>Chia sẽ</span>
+													<span>4 ngày</span>
+												</div>
+											</div>
+
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__toggle
+													main-content__wrapper__left__post__item__respose__person__more
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__info__right
+													"
+												>
+													<div
+														class="
+															header__content__nav__more__dot
+															bg-none
+														"
+													>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="
+												main-content__wrapper__left__post__item__respose__person
+											"
+										>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__img
+												"
+											>
+												<img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/>
+											</div>
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__content
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__wrapper
+													"
+												>
+													<p
+														class="
+															main-content__wrapper__left__post__item__respose__person__content__name
+														"
+													>
+														Kat Ngo
+													</p>
+													<span
+														>Hi mọi người em đang
+														gặp lỗi này ạ.</span
+													>
+												</div>
+												<div
+													class="
+														main-content__wrapper__left__post__item__respose__person__content__like
+													"
+												>
+													<span>Thích</span>
+													<span>Phản hồi</span>
+													<span>Chia sẽ</span>
+													<span>4 ngày</span>
+												</div>
+											</div>
+
+											<div
+												class="
+													main-content__wrapper__left__post__item__respose__person__toggle
+													main-content__wrapper__left__post__item__respose__person__more
+												"
+											>
+												<div
+													class="
+														main-content__wrapper__left__post__item__info__right
+													"
+												>
+													<div
+														class="
+															header__content__nav__more__dot
+															bg-none
+														"
+													>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+														<i
+															class="
+																bx
+																bxs-circle
+															"
+														></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div
+										class="
+											main-content__wrapper__left__post__item__cmtme
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__left__post__item__cmtme__img
+											"
+										>
+											<img
+												src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+												alt=""
+											/>
+											<i class="bx bxs-circle"></i>
+										</div>
+										<div class="input">
+											<input
+												type="text"
+												placeholder="Hãy gửi bình luận đầu tiên của bạn"
+											/>
+											<div class="input__icon">
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -416px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -362px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -434px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+												<div class="input__icon__item">
+													<i
+														data-visualcompletion="css-img"
+														class="
+															hu5pjgll
+															m6k467ps
+														"
+														style="
+															background-image: url('https://www.facebook.com/rsrc.php/v3/yS/r/-5nDun15jc_.png');
+															background-position: 0 -452px;
+															background-size: 26px
+																562px;
+															width: 16px;
+															height: 16px;
+															background-repeat: no-repeat;
+															display: inline-block;
+														"
+													></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-content__wrapper__right">
+							<div
+								class="main-content__wrapper__right__introduce"
+							>
+								<h5>Giới thiệu</h5>
+
+								<p
+									class="
+										main-content__wrapper__right__introduce__rule
+									"
+								>
+									Nơi giao lưu, trao đổi, học hỏi kiến thức về
+									Front-end. Có thể đăng tin tuyển dụng IT,
+									mọi hình thức quảng cáo,câu kéo member khác
+									sẽ bị ban.
+								</p>
+
+								<div
+									class="main-content__wrapper__right__status"
+								>
+									<div
+										class="
+											main-content__wrapper__right__status__icon
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											class="hu5pjgll lzf7d6o1"
+											style="
+												background-image: url('https://www.facebook.com/rsrc.php/v3/yK/r/LAwJtuh00j6.png');
+												background-position: 0 -506px;
+												background-size: 26px 718px;
+												width: 16px;
+												height: 16px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__status__name
+										"
+									>
+										<p>Công khai</p>
+										<span
+											>Bất kỳ ai cũng có thể nhìn thấy mọi
+											người trong nhóm và những gì họ
+											đăng.</span
+										>
+									</div>
+								</div>
+
+								<div
+									class="main-content__wrapper__right__status"
+								>
+									<div
+										class="
+											main-content__wrapper__right__status__icon
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											class="hu5pjgll lzf7d6o1"
+											style="
+												background-image: url('https://www.facebook.com/rsrc.php/v3/yK/r/LAwJtuh00j6.png');
+												background-position: 0 -434px;
+												background-size: 26px 718px;
+												width: 16px;
+												height: 16px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__status__name
+										"
+									>
+										<p>Hiển thị</p>
+										<span
+											>Ai cũng có thể tìm nhóm này.</span
+										>
+									</div>
+								</div>
+
+								<div
+									class="main-content__wrapper__right__status"
+								>
+									<div
+										class="
+											main-content__wrapper__right__status__icon
+										"
+									>
+										<i
+											data-visualcompletion="css-img"
+											class="hu5pjgll lzf7d6o1"
+											style="
+												background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/EX0eoykAEz0.png');
+												background-position: 0 -392px;
+												background-size: 26px 500px;
+												width: 16px;
+												height: 16px;
+												background-repeat: no-repeat;
+												display: inline-block;
+											"
+										></i>
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__status__name
+										"
+									>
+										<p>Cùng nhau học tập</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="main-content__wrapper__right__topic">
+								<h4>Chủ đề phổ biến trong nhóm này</h4>
+								<div
+									class="
+										main-content__wrapper__right__topic__item
+									"
+								>
+									<p>#fe_question</p>
+									<span
+										>Do quản trị viên ghim • 976 bài
+										viết</span
+									>
+								</div>
+								<div
+									class="
+										main-content__wrapper__right__topic__item
+									"
+								>
+									<p>#fe_share</p>
+									<span>775 bài viết</span>
+								</div>
+								<div
+									class="
+										main-content__wrapper__right__topic__item
+									"
+								>
+									<p>#frontend</p>
+									<span>302 bài viết</span>
+								</div>
+
+								<button>Xem tất cả</button>
+							</div>
+
+							<div class="main-content__wrapper__right__chat">
+								<h4>Chat</h4>
+								<div
+									class="
+										main-content__wrapper__right__chat__group
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__right__chat__group__left
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__left__img
+											"
+										>
+											<img
+												src="./img/chat-group1.png"
+												alt=""
+											/>
+										</div>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__left__name
+											"
+										>
+											<p>Chào mừng</p>
+											<span>Tham gia để chat</span>
+										</div>
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__chat__group__right
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__right__content
+											"
+										>
+											<svg
+												viewBox="2 2 24 24"
+												class="
+													a8c37x1j
+													ms05siws
+													hwsy1cff
+													b7h9ocf4
+													eltiug27
+												"
+												height="16"
+												width="16"
+											>
+												<path
+													d="M8.129 24.468A11.937 11.937 0 0 0 13.999 26c6.629 0 12-5.372 12-12 0-6.627-5.371-12-12-12C7.374 2 2 7.373 2 14c0 2.26.626 4.375 1.713 6.18L2 26l6.129-1.532z"
+												></path>
+											</svg>
+											<p>Tham gia</p>
+										</div>
+									</div>
+								</div>
+								<div
+									class="
+										main-content__wrapper__right__chat__group
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__right__chat__group__left
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__left__img
+											"
+										>
+											<img
+												src="./img/chat-group1.png"
+												alt=""
+											/>
+										</div>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__left__name
+											"
+										>
+											<p>Chung</p>
+											<span>Tham gia để chat</span>
+										</div>
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__chat__group__right
+										"
+									>
+										<div
+											class="
+												main-content__wrapper__right__chat__group__right__content
+											"
+										>
+											<svg
+												viewBox="2 2 24 24"
+												class="
+													a8c37x1j
+													ms05siws
+													hwsy1cff
+													b7h9ocf4
+													eltiug27
+												"
+												height="16"
+												width="16"
+											>
+												<path
+													d="M8.129 24.468A11.937 11.937 0 0 0 13.999 26c6.629 0 12-5.372 12-12 0-6.627-5.371-12-12-12C7.374 2 2 7.373 2 14c0 2.26.626 4.375 1.713 6.18L2 26l6.129-1.532z"
+												></path>
+											</svg>
+											<p>Tham gia</p>
+										</div>
+									</div>
+								</div>
+								<button>Xem tất cả</button>
+							</div>
+
+							<div class="main-content__wrapper__right__footer">
+								<h4>File phương tiện mới chia sẻ</h4>
+								<div
+									class="
+										main-content__wrapper__right__footer__img
+									"
+								>
+									<div
+										class="
+											main-content__wrapper__right__footer__img__item
+										"
+									>
+										<img src="./img/anh-dep1.jpg" alt="" />
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__footer__img__item
+										"
+									>
+										<img src="./img/anh-dep2.jpeg" alt="" />
+									</div>
+									<div
+										class="
+											main-content__wrapper__right__footer__img__item
+										"
+									>
+										<img src="./img/anh-dep3.jpg" alt="" />
+									</div>
+								</div>
+								<button>Xem tất cả</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- <img
+													src="./img/anh-dai-dien-dep-avatar-dep-ngau-danh-cho-nu-an.jpg"
+													alt=""
+												/> -->
